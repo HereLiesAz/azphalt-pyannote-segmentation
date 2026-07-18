@@ -1,0 +1,28 @@
+{
+  "azphalt": "0.1",
+  "id": "com.hereliesaz.azphalt.pyannote-segmentation",
+  "name": "pyannote Segmentation",
+  "version": "1.0.0",
+  "kind": "asset",
+  "license": "MIT",
+  "compat": ">=0.1",
+  "description": "Frame-level speech activity, speaker-change, and overlap detection. Uses: voice-activity detection; diarization segmentation; overlapped-speech detection; silence trimming.",
+  "author": "azphalt",
+  "homepage": "https://github.com/HereLiesAz/azphalt-pyannote-segmentation",
+  "assets": [
+    {
+      "type": "onnx",
+      "path": "",
+      "role": "speaker-segmentation",
+      "remoteUrl": "https://github.com/HereLiesAz/azphalt-pyannote-segmentation/releases/latest/download/segmentation.onnx",
+      "modelLicense": "MIT (pyannote segmentation 3.0)",
+      "tags": [
+        "vad",
+        "segmentation",
+        "diarization",
+        "audio"
+      ]
+    }
+  ],
+  "files": {}
+}

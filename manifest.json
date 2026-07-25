@@ -6,8 +6,8 @@
   "kind": "asset",
   "license": "MIT",
   "compat": ">=0.1",
-  "description": "Frame-level speech activity, speaker-change, and overlap detection. Uses: voice-activity detection; diarization segmentation; overlapped-speech detection; silence trimming.",
   "author": "azphalt",
+  "description": "Frame-level speech activity, speaker-change, and overlap detection. Uses: voice-activity detection; diarization segmentation; overlapped-speech detection; silence trimming.",
   "homepage": "https://github.com/HereLiesAz/azphalt-pyannote-segmentation",
   "assets": [
     {
@@ -23,6 +23,5 @@
         "audio"
       ]
     }
-  ],
-  "files": {}
+  ]
 }
